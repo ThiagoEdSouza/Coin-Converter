@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 14px;
+}
+
+body {
+    
+    background: #E5E5E5;
+}
+
+main {
+    margin: 5px auto;
+    height: 766px;
+    width: 375px;
+    background: #000000;
+}
+
+
+.header-box {
+    background: #000000;
+    padding: 5% 3%;
+}
+
+header {
+    height: 66px;
+    background: #FF8C00;
+    padding: 20px;
+    cursor: pointer;
+}
+
+a{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-decoration: none;
+    padding: 25px;
+}
+
+select {
+    height: 48px;
+    width: 327px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+    padding-left: 10px;
+    background: greenyellow;
+}
+
+section {
+    padding-top: 23px;
+    margin: 0 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #f3ebeb;
+}
+
+.cash-value {
+    padding: 24px 0;
+    margin: 0 24px;
+}
+
+input {
+    height: 48px;
+    width: 327px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+    padding-left: 10px;
+    background: greenyellow;
+}
+
+button {
+    height: 48px;
+    width: 327px;
+    background: #FF8C00;
+    border-radius: 30px;
+    border: none;
+    margin: 0 24px 36px 24px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.conversor {
+    margin: 0 24px;
+    border: 3px solid #FF8C00;
+    border-radius: 10px;
+    width: 327px;
+    height: 276px;
+    text-align: center;
+    font-size: 125%;
+    line-height: 30px;
+}
+
+.fromCoin {
+    color: #FF8C00;
+}
+
+.toConverter {
+    color: red;
+}
+
+.icon-converter {
+    margin: 10% 0 7% 0;
+}
+
+.toCoin {
+    color: #FF8C00;
+}
+
+.finalValue {
+    color: yellow;
+}
